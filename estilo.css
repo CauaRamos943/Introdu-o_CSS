@@ -1,8 +1,43 @@
 body {
     background-color:aquamarine;
+    line-hieight: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #e6f2ff;
+    font-family: 'Times New Roman', Times, serif;
+    color: #222;
+    text-align: center;
+    padding: 10px;
 }
 h1 {
     color:red
+}
+nav {
+    background-color: #0055aa;
+    text-align: center;
+    padding: 20px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+a:hover {
+    color: yellow;
+}
+main {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+.caixa {
+    background-color: white;
+    border: 2px solid #003366;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 h2 {
     color:yellow
@@ -12,4 +47,16 @@ p {
 }
 span {
     color:violet
+}
+button {
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor:pointer;
+}
+button:hover {
+    background-color: yellow;
+    color:#003366;
 }
